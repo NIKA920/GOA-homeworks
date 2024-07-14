@@ -1,103 +1,34 @@
-from turtle import *
+name = "nika"
+#name არის ცვლადი
+# = ცვლადისთვის მოცემული მიმნიჭებელი სიმბოლო
+# "nika" არის ცვლადისთვის მნიშვნელობა
+surname = "zukhbaia"
+# print(name)
+#primt ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
 
-#we want draw a house
 
-#draw a square
+name = "nika" # ეს არის str (string) ტიპის ცვლადი
+age = 15 # ეს არის int (integer) მთელი რიცხვი
+height = 180.5  #ეს არის (float) ტიპის ცვლადი (ათწილადი)
 
-width(7)
+#booLean (booL) ტიპის ცვლადი
 
-color("purple")
+knows_programming = True
+is_ugly = False # snakecase (უბრალოდ წერის სტილი სდანდარტული)
 
-forward(200)
-left(90)
+isUgly = False # ჯავასკრიპტული (cameLcase)
 
-forward(200)
-left(90)
 
-forward(200)
-left(90)
+#print(name + " " + surname)
 
-forward(200)
-left(90)
+#სტრინგი არის ბრჭყალებში მოცემული სიმბოლოები
 
-#end of squera
+#print(name + age)
 
-#drawing a door
+#print(type(age))
+#print(type(name))
+#print(type(surname))
+#print(type(height))
+#print(type(knows_programming))
 
-forward(70)
-left(90)
-
-color("yellow")
-begin_fill()
-
-forward(100)
-right(90)
-
-forward(70)
-right(90)
-
-forward(100)
-end_fill()
-
-#end of door
-
-#drawing a roof
-
-penup()
-goto(200,200)
-pendown()
-
-color("red")
-begin_fill()
-
-right(150)
-forward(200)
-
-left(120)
-forward(200)
-end_fill()
-
-#end of roof
-
-penup()
-goto(35,150)
-pendown()
-
-#drawing a windows
-
-color("blue")
-begin_fill()
-
-left(30)
-forward(40)
-
-left(90)
-forward(40)
-
-left(90)
-forward(40)
-
-left(90)
-forward(40)
-
-penup()
-goto(175,150)
-pendown()
-
-forward(40)
-
-left(90)
-forward(40)
-
-left(90)
-forward(40)
-
-left(90)
-forward(40)
-end_fill()
-
-#end of windows
-
-#finish drawing a house
-
-exitonclick()
+print( "me" + " " + "var" + " " + str(name) + " " +  "chemi" + " " + "gvaria" + " " + str(surname) + " " + "var" + " " + str(age) + " " + "wlis" + " " + "simajleshi" + " " "var" + " " + str(height) + " " + "cm" )
