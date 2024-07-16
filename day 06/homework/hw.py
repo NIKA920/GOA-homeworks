@@ -1,0 +1,2 @@
+#name = "nika"
+print(nika)
